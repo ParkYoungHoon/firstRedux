@@ -1,8 +1,15 @@
+import React from 'react';
+import AddNumberRoot from "./components/AddNumberRoot";
+import DisplayNumberRoot from './components/DisplayNumberRoot';
 import './app.css';
 
 function App() {
   return (
-    <h1>react redux</h1>
+    <div className="App">
+      <h1>Root</h1>
+      <AddNumberRoot></AddNumberRoot>
+      <DisplayNumberRoot></DisplayNumberRoot>
+    </div>
   );
 }
 
